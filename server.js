@@ -3,6 +3,7 @@ const mustacheExpress = require('mustache-express');
 
 var addRouter = require('./routes/add');
 var eventsRouter = require('./routes/events');
+var queryRouter = require('./routes/query');
 
 const app = express();
 
@@ -23,6 +24,9 @@ app.use('/add', addRouter);
 
 // Route to the Events page
 app.use('/events', eventsRouter);
+
+// Route to the Events page
+app.use('/query', queryRouter);
 
 // Start the server
 const port = 3000;

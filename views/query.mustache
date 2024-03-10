@@ -1,0 +1,23 @@
+<html>
+ <head>
+  <link rel="stylesheet"
+ href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+ crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container" style="padding:20px">
+     <div class="card card-body bg-light">
+     <h2>Filter Events</h2><br>
+     <form action="query/submit" method="post">
+       <h5>Choose your tags</h5> <br/>
+       <b><i>Separate your tags with a comma, like this:<br>
+       "LGBTQ Friendly, Allies Welcome, Food Provided" </i></b> <br/><br/>
+      <input type="text" class="form-control" 
+        name="filterTags" style="max-width:300px">
+      <br/>
+      <input type="submit" value="OK" class="btn btn-primary">
+     </form>
+    </div>
+  </div>
+ </body>
+</html>

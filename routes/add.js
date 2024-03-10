@@ -6,7 +6,7 @@ const router = express.Router();
 router.use (express.urlencoded());
 
 router.get('/', function(request, response) {
-    response.render ('add');
+    response.render('add');
 });
 
 router.post('/submit', function (request, response) {
