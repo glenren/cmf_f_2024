@@ -1,0 +1,73 @@
+[
+  {
+    "name": "cmd-f",
+    "startDate": "2024-03-09",
+    "startTime": "08:30",
+    "endDate": "2024-03-10",
+    "endTime": "17:00",
+    "type": "Hackathon",
+    "desc": "Hackathon highlighting underrepresented gender identities",
+    "tags": "Women in STEM, Hackathon, Food Provided, Gender Minorities, UBC, Application-based, Free",
+    "taglist": [
+      "Women in STEM",
+      "Hackathon",
+      "Food Provided",
+      "Gender Minorities",
+      "UBC",
+      "Application-based",
+      "Free"
+    ]
+  },
+  {
+    "name": "UBC Block Party",
+    "startDate": "2024-04-29",
+    "startTime": "18:30",
+    "endDate": "2024-04-29",
+    "endTime": "23:30",
+    "type": "Concert",
+    "desc": "End of the school year party, featuring special guests, $80 ticket cost",
+    "tags": "UBC, Party, Paid, Evening, Concert",
+    "taglist": [
+      "UBC",
+      "Party",
+      "Paid",
+      "Evening",
+      "Concert"
+    ]
+  },
+  {
+    "name": "Annie's Birthday Party",
+    "startDate": "2024-03-21",
+    "startTime": "16:30",
+    "endDate": "2024-03-21",
+    "endTime": "20:30",
+    "type": "Party",
+    "desc": "Annie is celebrating her 100th birthday party.",
+    "tags": "birthday, food provided, free, lgbtq friendly, party, surrey",
+    "taglist": [
+      "birthday",
+      "food provided",
+      "free",
+      "lgbtq friendly",
+      "party",
+      "surrey"
+    ]
+  },
+  {
+    "name": "Queers and Coffee",
+    "startDate": "2024-03-19",
+    "startTime": "10:30",
+    "endDate": "2024-03-19",
+    "endTime": "13:00",
+    "type": "Social",
+    "desc": "Come chat with fellow members of the local LGBTQ community! Coffee and snacks provided, RSVP to join.",
+    "tags": "downtown vancouver, food provided, free, lgbtq friendly, rsvp",
+    "taglist": [
+      "downtown vancouver",
+      "food provided",
+      "free",
+      "lgbtq friendly",
+      "rsvp"
+    ]
+  }
+]

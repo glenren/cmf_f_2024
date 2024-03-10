@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <link rel="stylesheet"
+ href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+ crossorigin="anonymous">
+  </head>
+  <body>
+  <div class="container" style="padding:20px;">
+     <div class="card card-body bg-light">
+     <h1 style="margin-left:40px; margin-top:20px;">Events</h1> <br/>
+  <ul style="list-style-type:none; margin:none; padding:none">
+  {{#events}}
+  <li>
+    <div class="container" style="padding-bottom:20px; padding-top: 0px; padding-left:0px; padding-right:30px">
+     <div class="card card-body bg-light">
+     <h2>{{name}}</h2>
+     <h5>{{type}}</h5> <br>
+     <b>Start: {{startDate}} at {{startTime}}</b>
+    <b>End: {{endDate}} at {{endTime}}</b> <br/>
+    <p>{{desc}}</p> <br/>
+    <i>{{tags}}</i>
+    </div>
+  </div>
+  </li>
+  {{/events}}
+  </ul></div></div>
+ </body>
+</html>
